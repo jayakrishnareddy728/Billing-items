@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script type="text/javascript" src="project.js"></script>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <title>project</title>
+</head>
+
+<body>
+    <h3 style="text-align: center" id = "bill"> Bill Calculation </h3>  
+    <input type="text" onfocus="this.value=''" class='boxName' id="name" placeholder="enter name">
+    <input type="number" onfocus="this.value=''" class='boxPrice' id="priceholder" placeholder="enter price" min="1" >
+    <button class='box' onclick="addItem() ">add item</button>
+    <br>
+    <table class="shopTable">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Add</th>
+        </tr>
+        <tbody id="shopTable">
+        </tbody>
+    </table>
+    <button onclick = "prevPage()">Previouspage</button> <button onclick = "nextPage()">nextpage</button>
+    <br>
+    <table class="cartTable">
+        <tr>
+            <th>Name</th>
+            <th>Remove</th>
+            <th>Cart</th>
+            <th>Add</th>
+        </tr>
+        <tbody id="cartTable">
+        </tbody>
+    </table>
+    <br>
+    <div>
+        <p class = "price" id = 'price'></p>
+        <p class = "count" id = 'count'></p>
+        <button class = "gstCal" type = "button" id = "gstCal" onclick = " gstTax();  disable(); ">Final </button>
+        <p class = "gstAmount" id='gstAmount'></p>
+
+    </div>
+</body>
+
+</html>

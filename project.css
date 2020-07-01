@@ -1,0 +1,60 @@
+table,td, th {
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.shopTable {
+  border-collapse: collapse;
+  width: 80%; 
+}
+.cartTable td ,
+.cartTable th {
+  width: 25%;
+  background-color: yellowgreen;
+  border-collapse: collapse;
+}
+
+th {
+  height: 50px;
+}
+body{
+  background-color: lightyellow;
+}
+div{
+  height: 100px;
+  width: 700px;
+  }
+.gstCal{
+  bottom: 2%;
+  margin-left: 1050px;
+}
+.price{
+  position: absolute;
+  left: 100px;
+}
+.count{
+  position: absolute;
+  left: 380px;
+}
+.gstAmount{
+  position: absolute;
+  left: 880px;
+}
+.box{
+  position: absolute;
+  top: 160px;
+  margin-left: 1300px;
+}
+.boxName{
+   position: absolute;
+  top: 80px;
+  margin-left: 1300px;
+}
+.boxPrice{
+   position: absolute;
+   top: 120px;
+   margin-left: 1300px;
+}
+.plusAdd{
+  background-color: yellowgreen;
+}
